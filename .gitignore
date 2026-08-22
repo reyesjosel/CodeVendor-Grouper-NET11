@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+TestHarness/
+Backup/
+UpgradeLog.htm
+*.bak
+*.dll
+*.pdb
+*.exe
+packages/
+.github/upgrades/

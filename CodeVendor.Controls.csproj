@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-windows</TargetFramework>
+    <ProjectType>Local</ProjectType>
+    <AssemblyKeyContainerName />
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\TestHarness\bin\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DocumentationFile>Grouper.xml</DocumentationFile>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Update="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Update="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Update="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Update="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Grouper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="Grouper.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Backup\AssemblyInfo.cs" />
+    <Compile Remove="Backup\Constants.cs" />
+    <Compile Remove="Backup\Grouper.cs" />
+    <EmbeddedResource Remove="Backup\Grouper.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".github\upgrades\scenarios\dotnet-version-upgrade\plan.md" />
+    <None Include=".github\upgrades\scenarios\dotnet-version-upgrade\scenario-instructions.md" />
+    <None Include=".github\upgrades\scenarios\dotnet-version-upgrade\tasks.md" />
+    <None Include=".github\upgrades\scenarios\dotnet-version-upgrade\tasks\01-prerequisites\progress-details.md" />
+    <None Include=".github\upgrades\scenarios\dotnet-version-upgrade\tasks\02-upgrade-project\progress-details.md" />
+    <None Include=".github\upgrades\scenarios\dotnet-version-upgrade\tasks\03-validation\progress-details.md" />
+    <None Include=".github\upgrades\scenarios\dotnet-version-upgrade\upgrade-options.md" />
+  </ItemGroup>
+  <PropertyGroup>
+    <AssemblyTitle>CodeVendor.Controls.Grouper%28%29 - Grouper Class</AssemblyTitle>
+    <Description>A special custom rounding GroupBox with many painting features.</Description>
+    <Company>CodeVendor</Company>
+    <Product>CodeVendor.Controls</Product>
+    <Copyright>Copyright © 2005 CodeVendor, All Rights Reserved.</Copyright>
+    <AssemblyVersion>1.0</AssemblyVersion>
+  </PropertyGroup>
+</Project>

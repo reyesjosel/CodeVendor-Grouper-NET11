@@ -91,7 +91,7 @@ Please refer to the original CodeVendor.com website for license information. Thi
 ## Version History
 
 - **1.0a** (December 17, 2005) - Original beta version by Adam Smith
-- **2.0** (2024) - Upgraded to .NET 11, modern Windows Forms designer support
+- **2.0**  (August 22, 2026) - Upgraded to .NET 11, modern Windows Forms designer support
 
 ## Acknowledgments
 

@@ -22,7 +22,7 @@ Version: 1.0a - Beta Version
 
 ## Modernization Work
 
-The upgrade to .NET 11 was performed in 2024 to demonstrate the migration path from classic .NET Framework code to modern .NET. All credit for the original design, implementation, and algorithms belongs to Adam Smith.
+The upgrade to .NET 11 was performed in August 22, 2026 to demonstrate the migration path from classic .NET Framework code to modern .NET. All credit for the original design, implementation, and algorithms belongs to Adam Smith.
 
 ## Purpose of This Repository
 
